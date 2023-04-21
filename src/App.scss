@@ -3,12 +3,27 @@ body {
 	color: #ccc;
 	padding: .5rem 2rem;
 	font-family: sans-serif;
-	
+
 	h1 {
 		color: rgb(217, 183, 118);
 	}
-	
+
 	p {
 		font-size: 1.2rem;
+	}
+
+	nav {
+		background-color: #222;
+		padding: .5rem;
+
+		a {
+			color: #aaa;
+			text-decoration: none;
+			margin-right: 1rem;
+		}
+
+		a.active {
+			color: rgb(211, 211, 110);
+		}
 	}
 }
