@@ -7,11 +7,11 @@ import { useContext } from 'react';
 import { AppContext } from './AppContext';
 
 function App() {
-  const { appTitle} = useContext(AppContext);
+	const { appTitle } = useContext(AppContext);
 
 	return (
 		<div className="App">
-      <h1>{appTitle}</h1>
+			<h1>{appTitle}</h1>
 			<nav>
 				<NavLink to="/welcome">Welcome</NavLink>
 				<NavLink to="/jobs">Jobs</NavLink>
