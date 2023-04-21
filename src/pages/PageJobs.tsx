@@ -7,7 +7,7 @@ export const PageJobs = () => {
 	const _jobs = jobs.filter(m => m.publicationDate > '2023-03-01').sort((a, b) => (a.publicationDate < b.publicationDate) ? 1 : 0);
 
 	return (
-		<div className="pageWelcome">
+		<div className="pageJobs">
 			<div className="jobs">
 				{_jobs.map((job) => {
 					return <div className="job">
